@@ -28,10 +28,7 @@ while True :
             index_finger = landmark[8] 
             thumb = landmark[4]
             # calculate distance between index finger and thumb
-              
-
-
-              
+               
             distance = math.sqrt((index_finger.x - thumb.x) ** 2 + (index_finger.y - thumb.y) ** 2)
             x = int(index_finger.x * img.shape[1])
             y = int(index_finger.y * img.shape[0])
